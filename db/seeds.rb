@@ -130,7 +130,6 @@ b32 = Beer.create :name => "The Swindler", :description => "Tasting Notes: Big o
 b33 = Beer.create :name => "Mid River", :description => "Tasting Notes: A full-flavoured pale ale with Vienna and Munich malts creating a rich, malty character. German hops give crisp herbaceous flavours and US hops add bright citrus and fruit aromas. All of this with just 3.5% alcohol. The Story: James Squire might have been a chicken stealing, highway robbing, convict lothario, but he had some serious business smarts. That’s why, in 1806, he built his first tavern at Kissing Point on the shores of the Parramatta River, just at the spot where thirsty sailors would want to break their journey between Parramatta and Sydney Cove.", :abv => 3.5, :ibu => 21, :styleId => "Mid Pale Ale" # Mosaic, Citra, Hallertau Tradition, Spalt Select, Northern Brewer
 b34 = Beer.create :name => "Orchard Crush", :description => "Tasting Notes: A refreshing traditional cloudy cider with a fragrant, fresh aroma, a broad clean palate, and a crisp finish. The Story: Plenty of ladies could attest to the tempting charms of James Squire. And what better place to sow the seeds of love than in his orchard at Kissing Point? Apples have always represented temptation to brewers, and James was probably no different.", :abv => 4.8, :styleId => "Apple Cider"
 
-
 # Sydney Brewery
 b35 = Beer.create :name => "Glamarama Summer Ale", :description => "If it's not the look that's hot it's the weather or being summer in Sydney's East, it's both, sizzling, sultry hot. Boy, do you need a beer. So here's to another perfect summer ale! Crisp and clean, light and refreshing, like the way you like your waves and as for that cheeky little touch of tropical fruit and citrus you detect every time you take a sip? That's natures way of telling you it's going to be a long hot summer, but just stay cool and reach for another.", :abv => 4.6, :styleId => "Summer Ale"
 b36 = Beer.create :name => "Surry Hills Pils", :description => "It's old, really old, but it's where you find all things fresh and lively, big bold contrasts: that's what we love about Surry Hills and this superb pilsner. Things that in theory shouldn't work so well together, do, and wonderfully. The big floral aromatic hop character doesn't fight with the malty mouth flavour, it dances with it. Then there's the fruity spicy bitterness that brings it all together and finishes it off beautifully.", :abv => 5.0, :styleId => "Pilsner"
@@ -586,6 +585,10 @@ br44 = Brewery.create :name => "The Kooinda Brewing Company", :established => 20
 
 # Fury and Son Brewing Company
 br45 = Brewery.create :name => "Fury and Son Brewing Company", :established => 2016, :website => "https://www.furyandson.com.au/", :hasImages => true
+
+
+############################### BRISBANE BREWERIES #############################
+
 
 ################################################################################
 ################################# ASSOCIATIONS #################################
