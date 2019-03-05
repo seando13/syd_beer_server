@@ -53,6 +53,7 @@ end
 gem 'pry-rails'
 gem 'bcrypt'
 gem 'cloudinary'
+gem 'rack-cors'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

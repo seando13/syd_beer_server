@@ -11,6 +11,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  brewery_id  :integer
+#  beer_image  :text
 #
 
 class Beer < ApplicationRecord

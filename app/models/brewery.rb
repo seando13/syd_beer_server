@@ -9,6 +9,7 @@
 #  hasImages   :boolean
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  location    :text
 #
 
 class Brewery < ApplicationRecord

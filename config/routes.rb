@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :breweries
+  resources :beers
+  resources :hops
+
+  # Home Controller Routes
   get '/home' => 'pages#home'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  # Breweries Controller Routes 
+  get '/breweries/search' => 'breweries#search'
 end
