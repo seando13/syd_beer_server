@@ -18,6 +18,7 @@ class PagesController < ApplicationController
     respond_to do |format|
       format.html
       format.json { render json: @brewery.to_json(:include => :beers) }
+
     end
   end
 
