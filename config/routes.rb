@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   get '/brewery' => 'pages#brewery'
 
+  #get '/beer' => 'pages#beer'
 
 
 end

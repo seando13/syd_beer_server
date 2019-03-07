@@ -22,6 +22,15 @@ class PagesController < ApplicationController
     end
   end
 
+  # def beer
+  #   @beer = Beer.find_by(search_params)
+  #
+  #   respond_to do |format|
+  #     format.html
+  #     format.json { render json: @beer.to_json}
+  #   end
+  # end
+
   private
 
   def search_params
